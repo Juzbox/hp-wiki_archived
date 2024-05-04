@@ -1,8 +1,6 @@
 ---
 Note_Type:
   - Profile
-Position / Activity: []
-Fields of activity: 
 Website: https://salilparekh.work/
 Collaborator: true
 ---

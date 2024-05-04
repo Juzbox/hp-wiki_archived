@@ -1,11 +1,8 @@
 ---
 Note_Type:
   - Profile
-Position / Activity: []
-Fields of activity:
-  - Design research
-  - Design fiction
-  - Participatory urbanism
+Position / Activity: 
+Fields of activity: []
 Website: https://pedrogilfarias.com/
 Collaborator: true
 ---
