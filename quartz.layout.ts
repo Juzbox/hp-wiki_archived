@@ -19,19 +19,19 @@ export const defaultContentPageLayout: PageLayout = {
     Component.Breadcrumbs(),
     Component.ArticleTitle(),
     Component.ContentMeta(),
-    Component.TagList(),
+    //Component.TagList(),
   ],
   left: [
     Component.PageTitle(),
     Component.MobileOnly(Component.Spacer()),
     Component.Search(),
     Component.Graph(),
-    Component.Darkmode(),
+    //Component.Darkmode(),
     Component.DesktopOnly(Component.Explorer()),
   ],
   right: [  
     Component.DesktopOnly(Component.TableOfContents()),
-    Component.Backlinks(),
+    //Component.Backlinks(),
   ],
 }
 
@@ -42,7 +42,7 @@ export const defaultListPageLayout: PageLayout = {
     Component.PageTitle(),
     Component.MobileOnly(Component.Spacer()),
     Component.Search(),
-    Component.Darkmode(),
+    //Component.Darkmode(),
     Component.DesktopOnly(Component.Explorer()),
   ],
   right: [],

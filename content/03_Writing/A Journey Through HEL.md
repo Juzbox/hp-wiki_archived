@@ -9,8 +9,7 @@ tags:
 ---
 
 
-Dec 29, 2020 / Co-authored with [[Pedro Gil Farias]]
-Co-authored by [Pedro Gil Farias](https://pedrogilfarias.com/) | Project page: [Haul.earth](http://haul.earth/)
+Dec 29, 2020 | Co-authored by [Pedro Gil Farias](https://pedrogilfarias.com/) | Project page: [Haul.earth](http://haul.earth/)
 
 
 
