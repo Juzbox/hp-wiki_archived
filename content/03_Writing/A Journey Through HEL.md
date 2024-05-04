@@ -14,7 +14,7 @@ Co-authored by [Pedro Gil Farias](https://pedrogilfarias.com/) | Project page:
 
 
 
-## The Haul Earth Ledger | From #ConsumerCulture to #MakerCulture
+## The Haul Earth Ledger | From Consumer Culture to Maker Culture
 
 _We want something when we don’t have it;  
 We don’t take care of it when we have it;  
@@ -139,7 +139,7 @@ An easy to disassemble and biodegradable wind turbine that helps create truly cl
 **Tools / Parts used:** Woven bamboo and a mold.  
 **Risks of using this device:** It could cause storms if reversed.
 
-By: [[Winand]] / (http://haul.earth/bambooFan.html#)
+By: Winand / (http://haul.earth/bambooFan.html#)
 
 ## What Next?
 

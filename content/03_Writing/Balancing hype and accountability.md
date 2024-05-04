@@ -1,13 +1,13 @@
 ---
-dg-publish: true
-Note_Type: Personal Article
+Note_Type:
+  - Personal Article
 tags:
   - reflection
   - DesignResearch
   - Sustainability
   - KPI
 ---
-#personal_article
+
 
 
 Nov 2, 2020 / [Medium link](https://medium.com/@hugopilate/balancing-hype-and-accountability-bc3ca52a494b)

@@ -1,15 +1,8 @@
----
-dg-publish: "true"
-Note_Type: Project
----
-
----
-dg-publish: true
-dg-home: true
----
 
 
 ![](https://miro.medium.com/v2/resize:fit:700/1*cOUmhg7jEI4I-LqL40AUaQ.gif)
+
+
 
 Welcome! Here is a collection of notes, projects, and contacts I am slowly developing into a browsable archive. This is done by me [Hugo Pilate](hugopilate.com), and with support from the [Cyberlocal Strategies community](https://discord.gg/VtDufxdX).
 
