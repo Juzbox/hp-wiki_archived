@@ -12,7 +12,7 @@ html {
 body,
 section {
   margin: 0;
-  max-width: 80%;
+  max-width: 100%;
   box-sizing: border-box;
   background-color: var(--light);
   font-family: var(--bodyFont);
@@ -135,44 +135,54 @@ a {
   }
 
   & > #quartz-body {
-    
-    
  display: flex;
+ justify-content: center; 
   flex-wrap: wrap;
 
-  .center,
-  .sidebar {
-    flex-basis: 50%;
-    box-sizing: border-box;
-  }
+
+
+
+.center,
+.sidebar {
+  box-sizing: border-box;
+  padding: 0 1rem;
+}
 
   .center {
-    padding: 0 1rem;
-    max-width: $pageWidth;
+  width: $sidePanelWidth; /* Width of the sidebar */
+    left: 50%; /* Start from the center of the screen */
+  transform: translateX(50%); /* Translate back half of its width to the right */
   }
 
   .sidebar {
+  position: fixed;
     margin-top: $topSpacing;
     padding: 0 1rem;
+    top: 0; /* Align the top of the sidebar with the top of the viewport */
+  bottom: 0; /* Align the bottom of the sidebar with the bottom of the viewport */
+  width: $sidePanelWidth; /* Width of the sidebar */
+  right: 50%;
 
-    &.left {
+    &.right {
    
-      left: 10vw;
-      width: 50%;
+      display: none;
     }
   }
 
-  @media all and (min-width: $fullPageWidth) {
-    .center {
-      flex-grow: 1;
-    }
-  }
+  
 
-  @media all and (max-width: $fullPageWidth) {
+  @media all and (max-width: $pageWidth) {
     flex-direction: column;
-    .center, .sidebar {
-      width: 100%;
+    .sidebar{
+    display: none;
     }
+    .center{
+width: 100%;
+    left: 0%;
+      
+      transform: translateX(0); /* Reset transform */
+    }
+    
   }
   }
 

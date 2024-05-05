@@ -1,6 +1,7 @@
 $pageWidth: 600px;
 $mobileBreakpoint: 600px;
 $tabletBreakpoint: 1200px;
-$sidePanelWidth: 200px;
+$sidePanelWidth: 40vw;
+$rightPanelWidth: 0px;
 $topSpacing: 6rem;
-$fullPageWidth: $pageWidth + 2 * $sidePanelWidth;
+$fullPageWidth: 100vw;
