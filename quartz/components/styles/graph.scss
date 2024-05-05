@@ -10,10 +10,14 @@
     border-radius: 5px;
     border: 1px solid var(--lightgray);
     box-sizing: border-box;
-    height: 250px;
+    height: 70vh;
     margin: 0.5em 0;
     position: relative;
     overflow: hidden;
+
+& > #graph-container {
+  height: 800px; /* Adjust the height as needed */
+}
 
     & > #global-graph-icon {
       color: var(--dark);
@@ -59,12 +63,14 @@
       top: 50%;
       left: 50%;
       transform: translate(-50%, -50%);
-      height: 60vh;
-      width: 50vw;
+      height: 80vh;
+      width: 80vw;
 
       @media all and (max-width: $fullPageWidth) {
         width: 90%;
       }
     }
+
+
   }
 }

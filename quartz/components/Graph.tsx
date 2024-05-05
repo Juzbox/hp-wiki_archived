@@ -27,14 +27,14 @@ const defaultOptions: GraphOptions = {
   localGraph: {
     drag: true,
     zoom: true,
-    depth: 1,
+    depth: -1,
     scale: 1.1,
-    repelForce: 0.5,
-    centerForce: 0.3,
+    repelForce: 1,
+    centerForce: 0.5,
     linkDistance: 30,
     fontSize: 0.6,
     opacityScale: 1,
-    showTags: true,
+    showTags: false,
     removeTags: [],
   },
   globalGraph: {
@@ -58,9 +58,9 @@ export default ((opts?: GraphOptions) => {
     const globalGraph = { ...defaultOptions.globalGraph, ...opts?.globalGraph }
     return (
       <div class={classNames(displayClass, "graph")}>
-        <h3>The Map</h3>
+        <h3></h3>
         <div class="graph-outer">
-          <div id="graph-container" data-cfg={JSON.stringify(localGraph)}></div>
+          <div id="graph-container" data-cfg={JSON.stringify(localGraph)} ></div>
           <svg
             version="1.1"
             id="global-graph-icon"
