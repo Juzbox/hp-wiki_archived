@@ -292,6 +292,16 @@ h6 {
   }
 }
 
+/* Home page */
+body.home .graph {
+  height: 600px;
+}
+
+/* All other pages */
+body:not(.home) .graph {
+  height: 300px;
+}
+
 // typography improvements
 h1 {
   font-size: 1.75rem;
