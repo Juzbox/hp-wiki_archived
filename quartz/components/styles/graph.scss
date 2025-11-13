@@ -74,3 +74,13 @@
 
   }
 }
+
+/* Home page graph size */
+body.home .graph {
+  height: 600px !important;
+}
+
+/* Other pages graph size */
+body:not(.home) .graph {
+  height: 300px !important;
+}
